@@ -9,6 +9,7 @@ public class math {
 		System.out.println(Math.subtractExact(0, 0));
 		System.out.println(Math.multiplyExact(10, 10));
 		System.out.println(Math.max(2.3, 6.3));
+	//	System.out.println(Math.
 		for(int i=1;i<10;i++)
 		{
 				
