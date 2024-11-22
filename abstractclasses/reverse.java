@@ -4,15 +4,18 @@ public class reverse {
 	
 	public static void main (String[] args)
 	{
-	String input="abcd";
+		String in="ram";
+	String input="r\r\na\r\nm";
 	String output="";//from last to first
-	for(int i=3;i>=0;i-- )
+	System.out.println(input);
+	for(int i=2;i>=0;i-- )
 	{
-	char c1= input.charAt(i);
+	char c1= in.charAt(i);
 	output=output+c1;
 	//System.out.println(output);
 	}
-	System.out.println(output);
+	
+			System.out.println(output);
 	}
 
 }
